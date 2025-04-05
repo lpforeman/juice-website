@@ -26,7 +26,7 @@
         font-family: 'Quicksand', sans-serif;
       }
 
-      .content-wrapper {
+      main {
         flex: 1;
       }
     </style>
@@ -42,9 +42,11 @@
             alt="Georgetown Juicery Logo"
           />
         </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -61,48 +63,51 @@
       </div>
     </nav>
 
-    <!-- CONTENT -->
-    <div class="container mt-4 mb-4 content-wrapper">
+    <!-- MAIN CONTENT -->
+    <main class="container mt-4 mb-4">
       <h1>Georgetown Juicery</h1>
 
       <!-- Menu Section -->
       <div class="w3-row w3-padding-64" id="menu">
         <div class="w3-col l6 w3-padding-large">
-          <h2 class="w3-center">Acai Bowls and Beyond</h2><br>
+          <h2 class="w3-center">Superfood Smoothies</h2><br>
 
-          <h4>Acai Smoothie Bowl 11.00</h4>
-          <p class="w3-text-grey">pick any smoothie to use as the base for your bowl. smoothie bowls come blended with acai and topped with fruit and our house granola.</p><br>
+          <h4>Coco Verde 11.00</h4>
+          <p class="w3-text-grey">kale, spinach, mango, banana, dates, coconut oil, coconut water</p><br>
 
-          <h4>Gluten-Free Oats Bowl 8.00</h4>
-          <p class="w3-text-grey">oats soaked in our house cashew milk, served cold, choice of 2 toppings included.</p><br>
+          <h4>Bradley's CB&J 8.00</h4>
+          <p class="w3-text-grey">strawberry, banana, cashew butter, dates, dragonfruit, house almond milk</p><br>
 
-          <h4>Quinoa Bowl 9.00</h4>
-          <p class="w3-text-grey">quinoa cooked in our house cashew milk, served cold, choice of 2 toppings included.</p><br>
+          <h4>Superman 9.00</h4>
+          <p class="w3-text-grey">blueberries, goji berries, banana, dates, dragonfruit, house almond milk</p><br>
 
-          <h4>Combination Bowl 8.50</h4>
-          <p class="w3-text-grey">combination of oats and quinoa, served cold, choice of 2 toppings included.</p><br>
+          <h4>The Blaze 8.50</h4>
+          <p class="w3-text-grey">strawberry, mango, banana, dates, ginger, cayenne, house cashew milk</p><br>
 
-          <h4>Vanilla Cashew Parfait 7.00</h4>
-          <p class="w3-text-grey">a vegan take on Greek-style yogurt, loaded with probiotics and topped with berries and our house granola.</p><br>
+          <h4>Tropic Energy 7.00</h4>
+          <p class="w3-text-grey">mango, banana, dates, dragonfruit, brewed guayusa</p><br>
 
-          <h4>Chia Seed Pudding 7.00</h4>
-          <p class="w3-text-grey">available in Strawberry, Chocolate, Vanilla Goji, and Vanilla Matcha flavors.</p><br>
+          <h4>Basil Bomb 7.00</h4>
+          <p class="w3-text-grey">strawberry, banana, basil, dates, house almond milk</p><br>
 
-          <h4>House Granola 9.00</h4>
-          <p class="w3-text-grey">you asked for it, so we've made our granola available in 16oz containers.</p><br>
+          <h4>Blended Brew 9.00</h4>
+          <p class="w3-text-grey">banana, cashew butter, cold brew coffee, cacao (optional)</p><br>
 
-          <h4>Boosters and Toppings</h4>
-          <p class="w3-text-grey">acai, chia seeds, hemp Protein, spinach, kale, cacao, aloe vera, coconut oil, flax seeds, ginger, matcha, goji berries, vegan probiotic, wheatgrass, maca</p><br>
+          <h4>Cacao Monster 9.00</h4>
+          <p class="w3-text-grey">banana, cashew butter, cacao, house almond milk</p><br>
+
+          <h4>Kid Dynamite 9.00</h4>
+          <p class="w3-text-grey">banana, dragonfruit, house cashew milk</p><br>
         </div>
 
         <div class="w3-col l6 w3-padding-large">
-          <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/smoothies-bowls/416-super.jpg?raw=true" alt="Smoothie Bowl" style="width:100%; margin-bottom: 16px;">
-          <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/snacks/475-breakfast-bowl.jpg?raw=true" alt="Oats Bowl" style="width:100%">
+          <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/smoothies-bowls/414-coco-verde.jpg?raw=true" alt="coco verde smoothie" style="width:100%; margin-bottom: 16px;">
+          <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/smoothies-bowls/465-waterboy.jpg.jpg?raw=true" alt="waterboy smoothie" style="width:100%">
         </div>
       </div>  
-    </div>
+    </main>
 
-    <!-- FULL-WIDTH FOOTER -->
+    <!-- FULL-WIDTH FOOTER (moved outside main) -->
     <footer style="background-color: rgb(28, 126, 126); color: white; padding: 1em; text-align: center;">
       <hr style="border-top: 1px solid white;" />
       &copy; Copyright 2025 Georgetown Juicery. All rights reserved.
